@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&family=Tilt+Warp&display=swap");
+
+/* #4ED476
+#419DFF
+#F68100 */
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+body {
+  background-color: rgb(24, 21, 21);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+button {
+  outline: none;
+  border: none;
+}
+.solid-button {
+  background: #4ed476;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: solid 3px #4ed476;
+  color: black;
+  font-weight: 600;
+}
+.solid-outline {
+  background: white;
+  border: solid 3px #4ed476;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background: #000;
+  width: 100vw;
+}
+
+.nav-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 10px 0px;
+}
+
+.nav-container > form {
+  width: 40%;
+}
+
+.form_input {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 90%;
+  padding: 5px 15px;
+  background: white;
+  margin-bottom: 10px;
+}
+
+.form_input > input {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.breaking-container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  background-color: rgb(115, 114, 114);
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 60px;
+  gap: 20px;
+  color: #000000;
+}
+.recnet-updates {
+  flex-direction: column;
+  display: flex;
+  height: 50vh;
+  background-color: #000000;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  color: #4ed476;
+}
+.wether-forecasting {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  background-color:rgb(126, 125, 125);
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  color: #000000;
+}
+.wether {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 100px;
+}
+
+iframe {
+  width: 40%;
+  height: 80%;
+  margin-bottom: 10px;
+}
